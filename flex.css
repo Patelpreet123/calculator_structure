@@ -1,0 +1,71 @@
+body{
+    background-color: teal;
+}
+#a {
+    height: 700px;
+    width: 500px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    margin: auto;
+    background-color: black;
+}
+
+.b {
+    height: 100px;
+    width: 100px;
+    font-size: 2em;
+    background-color: gray;
+    border: 3px solid black;
+    text-align: center;
+    border-radius: 10px;
+    align-content: center;
+}
+
+#c {
+    height: 125px;
+    width: 450px;
+    background-color: aquamarine;
+    border-radius: 20px;
+    border: 4px solid black;
+    text-align: end;
+    font-size: 4em;
+    align-content: center;
+}
+
+.b1 {
+    font-size:3em;
+    font-weight: 900;
+    height: 100px;
+    width: 100px;
+    background-color: gray;
+    border: 3px solid black;
+    text-align: center;
+    border-radius: 10px;
+    align-content: center;
+}
+.b:hover{
+    scale: 1.1;
+    background-color: aliceblue;
+    transition: .5s;
+    box-shadow: 0px 0px 20px rgb(255, 132, 0);
+}
+.b1:hover{
+    scale: 1.1;
+    transition: .5s;
+    background-color:aquamarine;
+    box-shadow: 0px 0px 20px blanchedalmond;
+}
+.b:active{
+    scale: 1.15;
+    background-color: rgb(20, 128, 222);
+    transition: .25s;
+}
+.b1:active{
+    scale: 1.15;
+    background-color: rgb(20, 128, 222);
+    transition: .25s;
+}
